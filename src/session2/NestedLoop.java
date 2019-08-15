@@ -1,16 +1,30 @@
 package session2;
-
+import java.util.Scanner;
 public class NestedLoop {
 	public static void main(String[] args) {
-		simpleNestedLoop();
-	}
-	
-	public static void simpleNestedLoop() {
-		for(int i=0;i<10;i++) {
-			for (int j=0;j<10;j++) {
-				System.out.print("i="+i+",j="+j+"|");
+		
+//		simpleNestedLoop();
+		int i;
+		int j;
+		int m;
+		int n;
+		System.out.println("GIve me I:");
+		Scanner input= new Scanner(System.in);
+		m=input.nextInt();
+		System.out.println("Giv me J:");
+		Scanner input1=new Scanner(System.in);
+		n=input.nextInt();
+		for(i=1;i<=m;i++) {
+			for(j=1;j<=n;j++) {
+				
+				System.out.print("*");
+
 			}
 			System.out.println("");
+			
+			
+
 		}
 	}
 }
+	
